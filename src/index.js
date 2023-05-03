@@ -40,14 +40,7 @@ function selectionCountry(countries) {
     if (arr === 1) {
         countryInfo.innerHTML = '';
         return markupCountryOne(countries);
-    }
-    /*if (arr > 10) {
-        Notiflix.Notify.info("Too many matches found. Please enter a more specific name.");
-        countryList.innerHTML = '';
-        countryInfo.innerHTML = '';
-        return;
-    }*/
-    
+    }  
 } 
 
 
