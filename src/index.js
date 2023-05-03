@@ -33,11 +33,11 @@ function selectionCountry(countries) {
         countryInfo.innerHTML = '';
         return;
     }
-    if (arr > 1) {
+    else if (arr > 1) {
         countryList.innerHTML = '';
         return markupCountryAll(countries);
     }
-    if (arr === 1) {
+    else if (arr === 1) {
         countryInfo.innerHTML = '';
         return markupCountryOne(countries);
     }  
